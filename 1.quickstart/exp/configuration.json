@@ -1,0 +1,11 @@
+{
+  "gpu_id": 0,
+  "data_path": "./data",
+  "save_path": "./exp",
+  "batch_size": 64,
+  "optim": "adagrad",
+  "lr": 0.001,
+  "epochs": 50,
+  "weight_decay": 1e-06,
+  "test_val_split": 0.7
+}
