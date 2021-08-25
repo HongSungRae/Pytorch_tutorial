@@ -36,3 +36,8 @@
 ***
 
 # Qualitative Results
+## (1) Train-val curve
+[](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/1.quickstart/exp/loss_curve.png?raw=true)
+
+## (2) Random test plot
+[](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/1.quickstart/exp/pred_1.png?raw=true)
