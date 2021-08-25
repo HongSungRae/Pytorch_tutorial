@@ -19,6 +19,7 @@
 ***
 
 # Usage
+- It's OK using __Default__ setting if you don't mind.
 ## Train
 ```
 >python main.py --gup_id <YOUR GPU ID> --data_path <WHERE IS DATA?> --save_path <'./exp'> --batch_size <bs> --optim <Optimizer> --lr <LR> --epochs <EPOCHS> --weight_decay <Decay rate>
