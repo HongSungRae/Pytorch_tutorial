@@ -12,6 +12,7 @@ import json
 from torch.optim import lr_scheduler
 from utils import Logger, AverageMeter, draw_curve
 
+
 parser = argparse.ArgumentParser(description='FashionMNIST tutorial')
 parser.add_argument('--gpu_id', default='0', type=str,
                     help='GPU device')
