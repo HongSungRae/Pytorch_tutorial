@@ -10,7 +10,12 @@
 
 ## Network
 1. VGG16
+![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/2.finetuning/exp/vggnet.png?raw=true)
+![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/2.finetuning/exp/vggnet2.png?raw=true)
+
 2. ResNet
+![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/2.finetuning/exp/resnet.png?raw=true)
+![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/2.finetuning/exp/resnet2.png?raw=true)
 
 ## Augmentation
 
