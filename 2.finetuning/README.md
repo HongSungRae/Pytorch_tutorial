@@ -9,8 +9,9 @@
 3. 저장과 불러오기
 
 ## Network
+</br>
 1. VGG16
-<br>
+
 ![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/2.finetuning/exp/vggnet.png?raw=true)
 ![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/2.finetuning/exp/vggnet2.png?raw=true)
 </br>
