@@ -1,6 +1,6 @@
 ***
 # Torch Tutorial - Fine tuning tutorial
-- 토치 튜토리얼 [링크]()의 코드를 참고함
+- 토치 튜토리얼 [링크](https://tutorials.pytorch.kr/intermediate/torchvision_tutorial.html)의 코드를 참고함
 - 객체지향적인 코드
 
 ## Journey
@@ -12,6 +12,8 @@
 1. VGG16
 2. ResNet
 
+## Augmentation
+
 *** 
 # Prerequisites
 - Python 3.6
@@ -20,6 +22,7 @@
 - torchvision
 - torchsummary (pip install torchsummary)
 - torchmetrics (pip install torchmetrics)
+> CIFAR10
 
 ***
 # Usage
