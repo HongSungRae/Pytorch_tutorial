@@ -88,13 +88,14 @@ def main():
 
     # define architecture
     if args.model == 'VGG16': # (1,1000)
-        network_ = models.vgg16_bn(pretrained=True).cuda()
-        network = nn.Sequential(network_,
+        network = models.vgg16_bn(pretrained=True).cuda()
+        network = nn.Sequential(network,
                                 nn.Linear(1000,10).cuda())
     elif args.model == 'ResNet': # (1,1000)
-        network_ = models.resnet18(pretrained=True).cuda()
-        network = nn.Sequential(network_,
+        network = models.resnet18(pretrained=True).cuda()
+        network = nn.Sequential(network,
                                 nn.Linear(1000,10).cuda())
+    
     network = nn.DataParallel(network).cuda()
 
     
@@ -142,8 +143,8 @@ def main():
                                          gamma=0.7)
 
     # logger
-    train_logger = Logger(os.path.join(save_path, 'train_loss.log'))
-    val_logger = Logger(os.path.join(save_path, 'val_loss.log'))
+    train_logger = Logger(os.path.join(save_path, 'train_loss_' + args.model + '.log'))
+    val_logger = Logger(os.path.join(save_path, 'val_loss_' + args.model + '.log'))
 
 
     # training & validation
