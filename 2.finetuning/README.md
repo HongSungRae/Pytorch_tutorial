@@ -61,18 +61,19 @@
 ***
 # Quantitative Results
 ## (1) Accuracy
-- Accuracy : [0.7614 ± 0.056]
+- Accuracy : []
 
 ## (2) Loss
 ### VGG16
-![]()
+![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/2.finetuning/exp/loss_curve_VGG16.png?raw=true)
 
 ### ResNet
-![]()
+![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/2.finetuning/exp/loss_curve.png?raw=true)
 ***
 
 # Qualitative Results
 - Do you think the model predicts well?
+- I don't think so :(
 ### VGG16
 ![]()
 
