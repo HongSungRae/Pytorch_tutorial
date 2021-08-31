@@ -59,14 +59,26 @@
 ```
 
 ***
-# Qualitative Results
-- 
+# Quantitative Results
+## (1) Accuracy
+- Accuracy : [0.7614 ± 0.056]
+
+## (2) Loss
+### VGG16
+![]()
+
+### ResNet
+![]()
 ***
 
 # Qualitative Results
-## (1) Train-val curve
+- Do you think the model predicts well?
+### VGG16
 ![]()
 
-## (2) Random test plot
-- Do you think the model predicts well?
+### ResNet
 ![]()
+
+
+# Acknowledgement
+[Timbus Calin](https://stackoverflow.com/questions/54058256/runtimeerror-errors-in-loading-state-dict-for-resnet)
