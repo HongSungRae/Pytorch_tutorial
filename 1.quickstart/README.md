@@ -22,24 +22,34 @@
 - It's OK using _Default_ setting if you don't mind.
 ## Train
 ```
->python main.py --gup_id <YOUR GPU ID> --data_path <WHERE IS DATA?> --save_path <'./exp'> --batch_size <bs> --optim <Optimizer> --lr <LR> --epochs <EPOCHS> --weight_decay <Decay rate>
+>python main.py --gup_id <YOUR GPU ID> 
+                --data_path <WHERE IS DATA?> 
+                --save_path <'./exp'> 
+                --batch_size <bs> 
+                --optim <Optimizer> 
+                --lr <LR> 
+                --epochs <EPOCHS> 
+                --weight_decay <Decay rate>
 ```
 
 ## Test
 - Output : Accuracy, Accuracy std, 9 random predictions
 ```
->python evaluate.py --gup_id <YOUR GPU ID> --data_path <WHERE IS DATA?> --save_path <'./exp'> --batch_size <bs>
+>python evaluate.py --gup_id <YOUR GPU ID> 
+                    --data_path <WHERE IS DATA?> 
+                    --save_path <'./exp'> 
+                    --batch_size <bs>
 ```
 
 ***
-# Qualitative Results
+# Quantitative Results
+## (1) Accuracy
 - Accuracy : [0.7614 ± 0.056]
+
+## (2) Loss
+![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/1.quickstart/exp/loss_curve.png?raw=true)
 ***
 
 # Qualitative Results
-## (1) Train-val curve
-![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/1.quickstart/exp/loss_curve.png?raw=true)
-
-## (2) Random test plot
 - Do you think the model predicts well?
 ![](https://github.com/HongSungRae/Pytorch_tutorial/blob/main/1.quickstart/exp/pred_1.png?raw=true)
